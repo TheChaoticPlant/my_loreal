@@ -230,6 +230,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  margin-bottom: 16px;
 }
 
 .generate-btn {
@@ -253,3 +254,37 @@ body {
 .generate-btn i {
   margin-right: 8px;
 }
+
+.product-card.selected {
+  border: 2px solid #007bff;
+  background-color: #e6f0ff;
+}
+
+.selected-products {
+  margin-bottom: 1em;
+  padding: 0.5em;
+  background: #f8f8f8;
+  border-radius: 6px;
+}
+
+.product-description {
+  background: #f5f5f5;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.details-btn {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s;
+}
+
+.details-btn:hover {
+  background: #0056b3;
+}
+
